@@ -14,11 +14,21 @@ public class Wrappers {
 		//int				//Integer
 		//double			//Double
 		
-		//autoboxing = the automatic conversion that the java compiler makes between the primitive to wrapper
+		//autoboxing = the automatic conversion that the java compiler makes between the primitive their
+		//										corresponding wrapper class ie: int to Integer
 		//autoboxing example int to Integer
 		//unboxing = reverse of autoboxing. Automatic conversion of wrapper class to primitive
 
+		Boolean a = true;
+		Character b = '@';
+		Integer c = 123;
+		Double d = 3.14;
+		String e = "Bro";
 		
+		//Even though reference data type, will still behave as a primitive due to autoboxing
+		if(a==true) {
+			System.out.println("This is true");
+		}
 	}
 
 }
