@@ -15,6 +15,8 @@ public class StringFormatting {
 		
 		//%s uses the declared String variable(firstName)
 		//%.2f uses the declared double variable(weightKG)
+		//note that the .2 in $.2f declares the int's after the radix point ie 0.22
+		
 		//%d uses the declared int variable(yearBorn)
 		//%n creates a line break
 		
